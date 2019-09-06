@@ -1,0 +1,19 @@
+{
+  "name": "pi-manual-conf",
+  "version": "1.0.0",
+  "description": "Payment Intents with Manual Confirmation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon start server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "stripe-ecosystem",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "stripe": "^7.1.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0"
+  }
+}
